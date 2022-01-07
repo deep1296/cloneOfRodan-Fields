@@ -1,0 +1,866 @@
+#header{
+    height: 123px;
+    width: 100%;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(34, 34, 34);
+    text-align: left;
+    text-indent: 0px;
+    letter-spacing: 1.5px;
+    color: rgb(80, 80, 80);
+}
+.headerdiv{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    margin-right: 10px;
+    line-height: 24px;
+    align-items:center;
+}
+.leftheader{
+    padding: 10px;
+}
+#logo{
+    width: 50%;
+    left: 0px;
+    height: 25px;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    padding: 0% 25% 0% 25%;
+}
+.headerright{
+    display: flex;
+    margin-left: auto;
+    padding-right: 0.5rem;
+    align-items: flex-end;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    letter-spacing: 0px;
+    padding: 0px 5px 5px 2px ;
+    color: rgb(80, 80, 80);
+}
+.searchlogo{
+    box-sizing: inherit;
+    height: 15px;
+}
+.flag{
+    margin-right: 7px;
+}
+.line{
+    margin: auto;
+    height: 1px;
+    background-color: black;
+}
+#pageheader{
+    width: 100%;
+    letter-spacing: 0px;
+}
+.pageheadercontent{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.pageheadercontent>ul{
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+}
+.pageheadercontent>ul>li{
+    padding:  15px 23px 14px 23px;
+}
+.pageheadercontent>ul>li>span{
+    padding:  15px 0px 15px 0px;
+    line-height: 30px;
+    font-size: 13px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.pageheadercontent>ul>li>span>a{
+    /* padding:  15px 0px 15px 0px; */
+    line-height: 30px;
+    font-size: 13px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.pageheadercontent>ul>li>span:hover{
+    box-shadow: teal 0px 6px 0px;
+    cursor: pointer;
+}
+
+/* ---HEADER---- */
+
+/* ---FOOTER---- */
+
+
+#footer{
+    padding: 30px 20px 20px 20px;
+}
+.footcontent{
+    border-top: gray 1px solid;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+ul>li{
+    list-style: none;
+}
+.social{
+    grid-area: 1/4/1/4;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.socialdiv{
+    border: greenyellow 1px solid;
+}
+.social>ul{
+    display: flex;
+    padding: 0px;
+    justify-content: flex-start;
+}
+.social>ul>li{
+    padding: 10px;
+    margin-right: 20px;
+}
+.about{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.about>ul{
+    padding: 0px;
+    margin-top: 5px;
+    justify-content: flex-start;
+}
+.about>ul>li{
+    color: gray;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.help{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.help>ul{
+    padding: 0px;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+.help>ul>li{
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+}
+.copyright{
+    border-top: gray 1px solid;
+    display: flex;
+    grid-area: 2/1/2/5;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+}
+.copyright>ul{
+    display: flex;
+    padding: 0px;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+.copyright>ul>li{
+    padding: 0px 10px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.copyright>ul>div{
+    width: 1px;
+    background-color: grey;
+    height: 11px;
+    margin-top: 1%;
+}
+
+
+/* ---FOOTER---- */
+
+/* ---MAIN BODY---- */
+
+
+#contentbody{
+    /* border: 1px solid red; */
+    margin: 0px;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.content{
+    /* border: 1px solid black; */
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    padding: 0px;
+}
+.block1{
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.block1>div{
+    border: transparent solid 1px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/shot-1-best-sellers-homepage-US-Total-rf-serum-0040-0045-V2-3-2-1440x600-progressive.jpg?context=bWFzdGVyfHJvb3R8MjgwNDk3fGltYWdlL2pwZWd8aDVkL2hmMy8xNDE2MTMxMjE4NjM5OC5qcGd8NTRkNWQzYTJmZmQ3YTM2NzkyNDZmMmMxMzMxZGQwYTUyZjQ0M2E0NTEyOTRlZDhjZWQ4YzdhNGQyZjExMDY2Yw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1content{
+    width: 340px;
+    margin: 117px 860px 260px 63px;
+}
+.image1content>h2{
+    letter-spacing: 0px;
+    word-spacing: -4px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(50, 50, 50);
+}
+.image1content>p{
+    font-size: 18px;
+    width: 100%;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    line-height: 24px;
+}
+.image1content>div>button{
+    width: 100%;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-stretch: 100%;
+}
+/* ----------------------Article-1--------------- */
+.shopnow{
+    text-align: right;
+    margin-bottom: 10px;
+}
+a{
+    font-size: 15px;
+    color: #222;
+    border-bottom: solid 1px #222;
+    cursor: pointer;
+}
+.firstslider1{
+    background-color: #f8f4ee;
+    padding: 5px 0px;
+}
+.firstsliderlist{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    list-style-type: none;
+    font-size: 40px;
+    padding-right: 15px;
+}
+li{
+    /* border: green 1px solid; */
+    background-color: white;
+}
+.item1{
+    height: 100%;
+    float: left;
+    background-color: #f8f4ee;
+
+}
+.item2div{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    height: 100%;
+    padding: 10px;
+}
+.item2div>:first-child{
+    width: 100%;
+    height: 45%;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/ENFM030-Global-208x208-Mobile.jpg?context=bWFzdGVyfGltYWdlc3w2MTE2fGltYWdlL2pwZWd8aW1hZ2VzL2gzYi9oZDQvMTM2OTM5NjU0Njc2NzguanBnfDgzNDMyMjQ4MDFiZjRhZTNjNmY2Y2NjOTA0ZWYzMzg5NGVjMTIzZjk2Y2MzMWJlZmUzMDgxNzZmMTViOTM4ZmM);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px;
+}
+.item2div>:first-child>p{
+    padding: 0px 10px;
+    border: 2px solid rgb(218, 217, 217);
+    margin: 10px 20px 0px 200px;
+    font-size: 15px;
+    /* text-align: right; */
+    color: rgb(184, 184, 184);
+}
+.itemname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.itemdescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.itemprice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px 0px 5px 0px;
+}
+.itempricedesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 15px 0px;
+}
+.itemrating{
+    display: flex;
+}
+.itemrating>div{
+    margin-right: 10px;
+    padding: 1px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+i{
+    width: 2px;
+    margin-right: 9px;
+}
+.itemrating>span{
+    font-size: 14px;
+}
+.item2div>button{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: gray 0px 2px 2px ;
+    cursor: pointer;
+}
+.item2div>button:hover{
+    box-shadow: gray 0px 0px 0px ;
+}
+.item3div>:first-child{
+    width: 100%;
+    height: 45%;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/ENHLSH01-458x458.jpg?context=bWFzdGVyfGltYWdlc3w0MDkxfGltYWdlL2pwZWd8aW1hZ2VzL2gzNS9oODgvMTM5Nzc1NDQ2ODc2NDYuanBnfDlmYTEwMTFkMjFiNzMwYjlhNjU0NTNiYjU5ZDBmMGY3ZWIzNmNiZmYwMTJhMGYzMTFkMzA1ODhkOGI1MjdlMmE);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px;
+}
+.item3div>:first-child>p{
+    padding: 0px 10px;
+    border: 2px solid rgb(218, 217, 217);
+    margin: 10px 20px 0px 200px;
+    font-size: 15px;
+    text-align: right;
+    color: rgb(184, 184, 184);
+}
+.item3div{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    height: 100%;
+    padding: 10px;
+}
+.item3div>button{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: gray 0px 2px 2px ;
+    cursor: pointer;
+}
+.item3div>button:hover{
+    box-shadow: gray 0px 0px 0px ;
+}
+.item4div>:first-child{
+    width: 100%;
+    height: 45%;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/AAEY015-458x458.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ2OHxpbWFnZS9qcGVnfGltYWdlcy9oMDYvaDljLzEzOTc3NTQ0NDI1NTAyLmpwZ3xiNzQ3NjJkOWU1Y2QxOWM5ZDQ4ZGQzZDA1ZjdkNzBhZmRhMjdkYzE5MTU0MWZiZjY5MDc3NzEyMjBkM2E1YThj);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px;
+}
+.item4div>:first-child>p{
+    padding: 0px 10px;
+    border: 2px solid rgb(218, 217, 217);
+    margin: 10px 20px 0px 200px;
+    font-size: 15px;
+    text-align: right;
+    color: rgb(184, 184, 184);
+}
+.item4div{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    height: 100%;
+    padding: 10px;
+}
+.item4div>button{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: gray 0px 2px 2px ;
+    cursor: pointer;
+}
+.item4div>button:hover{
+    box-shadow: gray 0px 0px 0px ;
+}
+.article2line{
+    /* border: solid black 1px; */
+    /* height: 50px; */
+    /* margin-bottom: 20px; */
+    /* background-color: saddlebrown; */
+    padding: 10px 15px;
+    display: flex;
+    margin-top: 15px;
+}
+.article2line>:first-child{
+    width: 50%;
+    background-color: gray;
+    height: 4px;
+    margin: 0px;
+}
+.article2line>:last-child{
+    width: 50%;
+    background-color: rgb(211, 211, 211);
+    height: 4px;
+    margin: 0px;
+}
+
+/* -----------------Article-3----------------------- */
+
+.article3{
+    max-width: 1440px;
+    /* width: 100%; */
+    margin-bottom: 4rem;
+    /* padding: 25px; */
+}
+.dermInspired{
+    background-color: #f8f4f2;
+    padding: 15px;
+    text-align: center;
+    /* justify-items: end; */
+}
+.didiv1>h1{
+    /* border: olive solid 1px; */
+    font-weight: 400;
+    font-size: 40px;
+    color: #222;
+    line-height: 1.27;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.didiv2{
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-gap: 15px;
+    list-style-type: none;
+}
+.didiv2>div{
+    background-color: white;
+    border: rgb(194, 193, 193) solid 2px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.diitext{
+    /* border: red solid 1px; */
+    padding: 12px 0px;
+    height: 48px;
+}
+.diitext>p{
+    cursor: pointer;
+    width: 100%;
+    margin: 0px;
+    font-size: 16px;
+}
+.diimage1{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Fine-Lines-Wrinkles-Card.jpg?context=bWFzdGVyfHJvb3R8NTgzMDF8aW1hZ2UvanBlZ3xoODYvaGY2LzEyODg5MTg4MjA0NTc0LmpwZ3wzYjIwYmU0ZWI3NWZkYjFmNzJjNjVmZWNhYmJmN2RlODdjYjFmNTU0ODZjZWE0YjQ5NWIzNWQzYmQyN2UxZjli);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage1:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-1.png?context=bWFzdGVyfHJvb3R8MzcxNDI1fGltYWdlL3BuZ3xoOGIvaDJiLzEzOTAwNTk3MTMzMzQyLnBuZ3w5NTMwMDY2NDkxOTRmNDI1Mjc5ZjIyOTYxYjUyZTFiNDkyNDZhODZmNTJlZmQ4ZjU4NzBmZjI2NzFiMzhmZTMy);
+}
+.diimage2{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Acne-Breakouts-Card.jpg?context=bWFzdGVyfHJvb3R8NjU4Mjd8aW1hZ2UvanBlZ3xoMTEvaDJhLzEyODg5MTg4MjcwMTEwLmpwZ3wxMTg2NjQ4NjM0Y2QyZDY4MDdmZDU4ZmI0ZDkxMTlhM2UxMDgyYTFkMGVkOWMzMTBkYzY3ZTJmNGEzNzVlZDhm);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage2:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-2.png?context=bWFzdGVyfHJvb3R8Mzg1Mjk1fGltYWdlL3BuZ3xoOGUvaGI2LzEzOTAwNTk3MTk4ODc4LnBuZ3xmYzY3MThiYTcyZTNiMjhjNTI4MGZjNTUxMTY5OTgwNjFhMWQzM2Y0ZWQyZjJjMTUwOGEwYjBmM2Y1NjVlMTI3);
+}
+.diimage3{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Uneven-Tone-Brown-Spots-Card.jpg?context=bWFzdGVyfHJvb3R8NTc4OTV8aW1hZ2UvanBlZ3xoY2UvaDY0LzEyODg5MTg4MzM1NjQ2LmpwZ3w0ZjUyN2U3MWE1YzYwNmNmYzgxZTQ3MTAxNmU3ZGIyNjA4NmU1MTQ2Mjc4NWU2NWRhOTFmNDU3NGRmNmI0MDFi);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage3:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-3.png?context=bWFzdGVyfHJvb3R8MzU2OTI0fGltYWdlL3BuZ3xoNDMvaGJkLzEzOTAwNTk3MjY0NDE0LnBuZ3xhMWMzNDBiMGI0MWJmNjkwMDk2NDc0NGMxMjc4ZjljYzMzODYyYTRmNGUyNjFiYjZlOWZhOWM4ZmUzYTFjZmYz);
+}
+.diimage4{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Sensitivity-Visible-Redness-Card.jpg?context=bWFzdGVyfHJvb3R8NjE5MTd8aW1hZ2UvanBlZ3xoNTgvaGM3LzEyODg5MTg4NDAxMTgyLmpwZ3wwN2M4ZTJmMGExMDI1ZTM2MjE4M2I3MzFlZWI5NDJkZDYzZmMzMDdhMDMyNGFjODUyY2MwMWUzMDk5MDVjZWZk);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage4:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-4.png?context=bWFzdGVyfHJvb3R8MzEzMzg3fGltYWdlL3BuZ3xoYjIvaDMwLzEzOTAwNTk3MzI5OTUwLnBuZ3xlOGYwOTgwZmYxNWIzNGVhNjZiN2I1NGI0NWVmZTFhOGQwYmJlOGMzZjE5NzA4ODRjNjZlMzliZDAzZjVhNDk0);
+}
+.diimage5{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Dry-Skin-Card.jpg?context=bWFzdGVyfHJvb3R8NjY4Mjl8aW1hZ2UvanBlZ3xoZTkvaDJjLzEyODg5MTg4NDY2NzE4LmpwZ3w2M2M5MDI0YzI3ZTgyNDIxZmE0MTZmNGJiMWU5ZGZhZDM0NzQ3NmJhNDUxY2MyMTZjNjk4NDQ4NTAxMDk1MDNj);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage5:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-5.png?context=bWFzdGVyfHJvb3R8MjU0NDM1fGltYWdlL3BuZ3xoYjAvaGY4LzEzOTAwNTk3Mzk1NDg2LnBuZ3xlMmE5ZWIyN2YyYTVjZjZiZTVkZmUyZjJjODhmY2Q5MTdmMWM0NWQ1NTQ4MzFmZjM3YjUyNWI3M2NhYjI3ZTll);
+}
+.diimage6{
+    /* border: red solid 1px; */
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Eyes-Lips-Lashes-Card.jpg?context=bWFzdGVyfHJvb3R8ODY2MjZ8aW1hZ2UvanBlZ3xoZjAvaGE2LzEyODg5MTg4NTMyMjU0LmpwZ3w2ZmNiOWQwNjJhNGZlYjViMjA2MDhiYTlmN2JlMDU2M2NkMmNlMzJjNzU5ZmQ5ZWQxZTRkZmEwZGY3MDBhNjgy);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diimage6:hover{
+    cursor: pointer;
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-6.png?context=bWFzdGVyfHJvb3R8Mzc1MzQ5fGltYWdlL3BuZ3xoMjEvaDdiLzEzOTAwNTk3NDYxMDIyLnBuZ3xkNjNjZjczZWMzYzM4MDIyMjA1NzIwOTgwZDM0YTU4MGIzMmY1YmZlZGM2Y2I5ODdmZWU4NDEzMjAxOTgxZGY0);
+}
+.didiv3>button{
+    padding: 15px 100px;
+    font-size: 15px;
+    background-color: transparent;
+    border: black 1px solid;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+/* ----Article-4---- */
+
+
+.article4{
+    max-width: 1440px;
+    /* height: 372px; */
+}
+.article4content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    padding: 0px 15px 0px 15px;
+}
+
+/*  Article-4-content-1 */
+
+.article4content1{
+    /* border: brown solid 1px; */
+    background-color: rgb(244, 239, 231);
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.article4textcontent{
+    width: 50%;
+    padding: 15px;
+    padding: 34px 0px 10px 44px;
+}
+.article4textcontent>:first-child{
+    width: 300px;
+    /* border: green solid 1px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.article4textcontent>:nth-child(2){
+    width: 300px;
+    /* border: green solid 1px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin: 24px 0px 40px 0px;
+}
+.article4textcontent>:last-child{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.article4imagecontent1{
+    /* border: green solid 1px; */
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Homepage-PromoModule-MFEC-Desktop.jpg?context=bWFzdGVyfHJvb3R8MzgyNDU0fGltYWdlL2pwZWd8aDJjL2hkZi8xMzg1NDY1ODIzMjM1MC5qcGd8YjQwNjFlZTlkMDUwNTM2ZDUxZTI2YzE5ZmFhMzM4ZjlkYmQxMTNhNDg2NzJjMDc5NzhmNTEzMTYzYWY5NGI2NA);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/*  Article-4-content-2 */
+
+.article4content2{
+    /* border: brown solid 1px; */
+    background-color: rgb(205, 226, 199);
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.article4textcontent{
+    width: 50%;
+    padding: 15px;
+    padding: 34px 0px 10px 44px;
+}
+.article4textcontent>:first-child{
+    width: 300px;
+    /* border: green solid 1px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.article4textcontent>:nth-child(2){
+    width: 300px;
+    /* border: green solid 1px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin: 24px 0px 40px 0px;
+}
+
+.article4imagecontent2{
+    /* border: green solid 1px; */
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Promo-Self-Care.jpg?context=bWFzdGVyfHJvb3R8Mzk2NjI0fGltYWdlL2pwZWd8aGQzL2gzNC8xMjg4OTE4ODc5NDM5OC5qcGd8NzIxN2Y5NThiZWNlYmM4MDUwYTIzM2YyM2FlMDRiOGY1YTAzNTdkYjk1ZjNjMmZiNTlmNmY2MTdkYTA4ODJmMQ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.article4line{
+    /* border: solid black 1px; */
+    /* height: 50px; */
+    /* margin-bottom: 20px; */
+    /* background-color: saddlebrown; */
+    padding: 10px 15px;
+    display: flex;
+}
+.article4line>:first-child{
+    width: 65%;
+    background-color: gray;
+    height: 5px;
+    margin: 0px;
+}
+.article4line>:last-child{
+    width: 35%;
+    background-color: rgb(211, 211, 211);
+    height: 5px;
+    margin: 0px;
+
+}
+
+/* ----Article-5---- */
+
+.article5{
+    max-width: 1440px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #faf6f5;
+}
+.article5image{
+    background-image: url(https://www.rodanandfields.com/en-us/medias/Brand-Story-Image-Desktop.jpg?context=bWFzdGVyfHJvb3R8MTQ2MTQ2fGltYWdlL2pwZWd8aDlkL2g1Mi8xMjg4OTE4Nzg3Njg5NC5qcGd8OTJhOWZiNTkxMjNjMTI4NDdkYTU2MTIxYzM5MDEzZTQxNzVmOWNlOWRiZmVmNmI0ZWI0NDY4MDRmMzRlODY1YQ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: 1/1/1/4;
+    height: 470px;
+}
+.article5text1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 52px 140px 52px 195px;
+}
+.article5text1>div{
+    /* border: solid black 1px; */
+    padding: 65px 24px 0px 24px;
+}
+.article5text1>div>:first-child{
+    /* border: solid red 1px; */
+    font-size: 30px;
+}
+.article5text1>div>p{
+    /* border: solid green 1px; */
+    font-size: 18px;
+}
+.article5text1>div>:last-child{
+    /* border: solid yellow 1px; */
+    font-size: 16px;
+}
+
+
+/* ----Article-6---- */
+
+
+.article6{
+    max-width: 1440px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.followus{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-stretch: 100%;
+    color: rgb(34, 34, 34);
+    font-weight: 300;
+}
+.sliderWrap{
+    /* max-width: 1440px; */
+    display: grid;
+    grid-template-columns: repeat(8,18%);
+    overflow: hidden;
+    grid-gap: 10px;
+    padding: 0;
+    /* position: relative; */
+}
+.sliderWrap>li>img{
+    width: 100%;
+    height: 90%;
+}
+/* @keyframes round{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+-webkit -@keyframes round {
+    25% {
+        opacity: 1;
+        -webkit-opacity: 1;
+    }
+    40% {
+        opacity: 0;
+        -webkit-opacity: 0;
+    }
+}
+.lis:nth-child(1){
+    animation-delay: 28s;
+}
+.lis:nth-child(2){
+    animation-delay: 24s;
+}
+.lis:nth-child(3){
+    animation-delay: 20s;
+}
+.lis:nth-child(4){
+    animation-delay: 16s;
+}
+.lis:nth-child(5){
+    animation-delay: 12s;
+}
+.lis:nth-child(6){
+    animation-delay: 8s;
+}
+.lis:nth-child(7){
+    animation-delay: 4s;
+}
+.lis:nth-child(8){
+    animation-delay: 0s;
+} */
+
+/* ----Article-7---- */
+
+.article7{
+    max-width: 1440px;
+    /* margin-top: 20px; */
+    margin-bottom: 40px;
+    padding: 32px 141px 32px 141px;
+    background-color: rgb(225, 234, 241);
+}
+.article7content{
+    padding: 14px 32px 14px 32px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+    background-color: white;
+}
+.article7content>:first-child{
+    text-align: center;
+    font-size: 30px;
+    font-stretch: 100%;
+    padding: 0px 0px 0px 40px;
+}
+.article7content>:nth-child(2){
+    margin: 0px 24px px -37px;
+    font-size: 16px;
+    font-stretch: 100%;
+}
+.article7content>:last-child{
+    /* border: 1px solid black; */
+    text-align: right;
+    margin: 0px 0px 16px 0px;
+}
+.article7content>:last-child>button{
+    border: 1.8px solid black;
+    cursor: pointer;
+    box-shadow: gray 0px 2px 2px;
+    padding: 10px 16px 10px 16px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    font-stretch: 100%;
+    justify-items: center;
+}
+.article7content>:last-child>button:hover{
+    box-shadow: white 0px 2px 2px;
+}
