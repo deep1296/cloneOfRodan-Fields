@@ -6,7 +6,7 @@ A one week project for cloning the ""https://www.rodanandfields.com/en-us/** web
 
 ## contributors
 
-1. Dipak Tange @deep1296
+1. Dipak Tange (https://github.com/deep1296)
 2. Mahesh shiva Goud as @msg-1
 3. Sourabh Kumar as @sour7
 4. Suraj Kumar as @surajmehta999
