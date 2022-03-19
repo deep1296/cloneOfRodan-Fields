@@ -4,7 +4,7 @@ Rodan and Fields-clone
 A cosmetic products webapplication.
 A one week project for cloning the ""https://www.rodanandfields.com/en-us/** webapplication.
 
-##contributors
+## contributors
 
 1. Dipak Tange @deep1296
 2. Mahesh shiva Goud as @msg-1
