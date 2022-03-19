@@ -6,11 +6,12 @@ A one week project for cloning the ""https://www.rodanandfields.com/en-us/** web
 
 ## contributors
 
-1. Dipak Tange (https://github.com/deep1296)
-2. Mahesh shiva Goud as @msg-1
-3. Sourabh Kumar as @sour7
-4. Suraj Kumar as @surajmehta999
-5. Madan Mohan as @Maddy-O
+- [Aniket Pilankar](https://github.com/Aniket-Pilankar)
+- [Dipak Tange](https://github.com/deep1296)
+- [Ritesh Yadav](https://github.com/ritesh-2124)
+- [Avinash Kumar](https://github.com/avinash70008)
+- [Sakshi Rai](https://github.com/Saarah123)
+- [Abhishek Choudhary](https://github.com/abhich21)
 
 ## Solution Approach
 Waterfall Model
