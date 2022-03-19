@@ -6,47 +6,54 @@ A one week project for cloning the ""https://www.rodanandfields.com/en-us/** web
 
 ## contributors
 
-- [Aniket Pilankar](https://github.com/Aniket-Pilankar)
 - [Dipak Tange](https://github.com/deep1296)
-- [Ritesh Yadav](https://github.com/ritesh-2124)
-- [Avinash Kumar](https://github.com/avinash70008)
-- [Sakshi Rai](https://github.com/Saarah123)
-- [Abhishek Choudhary](https://github.com/abhich21)
+- [K Mahesh Shiva Goud](https://github.com/msg-1)
+- [Sourabh Kumar](https://github.com/sour7)
+- [Suraj Kumar](https://github.com/surajmehta999)
+- [Maddy-O](https://github.com/)
 
 ## Solution Approach
 Waterfall Model
-1. Requirements
+- Requirements
 
-2. Design
+- Design
 
-3. Implementation
+- Implementation
 
-4. Verification
+- Verification
 
-5. Maintenance
+- Maintenance
 
 ## 🛠 Tech Stack
 Tech stack: Html CSS Javascript
 
 ## Challanges we faced
-1. Merging each other code on Github
+- Merging each other code on Github
 
-2. Read others code and make changes to it
+- Read others code and make changes to it
 
-3. Exact pixel-perfect cloning of the website
+- Exact pixel-perfect cloning of the website
 
-4. Edge case problem solving
+- Edge case problem solving
 
 ## Website flow for User
-1. Home page (index.html)
+- Home page (index.html)
 
-2. Best sellers (for products)
+- Best sellers (for products)
 
-3. FInd a consultant (for consultant)
+- FInd a consultant (for consultant)
 
-4. Blog Section (Search blogs and news)
+- Blog Section (Search blogs and news)
 
-5. perks program (details)
+- perks program (details)
+
+#### Hard Coded Card details for payment section
+
+- Card Number - _1234567890_
+- Name - _Suraj_
+- CVV No - _123_
+- Expiry - _any date_ 
+- Payment OTP - _1234_
 
 ##Features
 
