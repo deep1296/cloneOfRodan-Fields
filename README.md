@@ -4,6 +4,9 @@ Rodan and Fields-clone
 A cosmetic products webapplication.
 A one week project for cloning the ""https://www.rodanandfields.com/en-us/** webapplication.
 
+## Deployed link of projec
+- https://focused-heisenberg-fa48d3.netlify.app/
+
 ## contributors
 
 - [Dipak Tange](https://github.com/deep1296)
