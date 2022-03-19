@@ -1,4 +1,4 @@
-# cloneOfRodan-Fields
+# clone Of Rodan-Fields
 
 Rodan and Fields-clone
 A cosmetic products webapplication.
@@ -6,48 +6,49 @@ A one week project for cloning the ""https://www.rodanandfields.com/en-us/** web
 
 ##contributors
 
-Dipak Tange @deep1296
-Mahesh shiva Goud as @msg-1
-Sourabh Kumar as @sour7
-Suraj Kumar as @surajmehta999
-Madan Mohan as @Maddy-O
-Solution Approach
+1. Dipak Tange @deep1296
+2. Mahesh shiva Goud as @msg-1
+3. Sourabh Kumar as @sour7
+4. Suraj Kumar as @surajmehta999
+5. Madan Mohan as @Maddy-O
+
+## Solution Approach
 Waterfall Model
-Requirements
+1. Requirements
 
-Design
+2. Design
 
-Implementation
+3. Implementation
 
-Verification
+4. Verification
 
-Maintenance
+5. Maintenance
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Tech stack: Html CSS Javascript
 
 ## Challanges we faced
-Merging each other code on Github
+1. Merging each other code on Github
 
-Read others code and make changes to it
+2. Read others code and make changes to it
 
-Exact pixel-perfect cloning of the website
+3. Exact pixel-perfect cloning of the website
 
-Edge case problem solving
+4. Edge case problem solving
 
 ## Website flow for User
-Home page (index.html)
+1. Home page (index.html)
 
-Best sellers (for products)
+2. Best sellers (for products)
 
-FInd a consultant (for consultant)
+3. FInd a consultant (for consultant)
 
-Blog Section (Search blogs and news)
+4. Blog Section (Search blogs and news)
 
-perks program (details)
+5. perks program (details)
 
 ##Features
 
-Add products
-remove products from cart and add promo.
-add car details
+1. Add products
+2. remove products from cart and add promo.
+3. add car details
