@@ -7,6 +7,13 @@ A one week project for cloning the ""https://www.rodanandfields.com/en-us/** web
 ## Deployed link of project
 - https://focused-heisenberg-fa48d3.netlify.app/
 
+
+### Home page
+![Rodan&Fields](https://user-images.githubusercontent.com/95950369/158530057-bc704d44-c6de-43b6-ae80-c1c470d84596.png)
+
+### Cart Page
+![Gymshark-webite](https://user-images.githubusercontent.com/95950369/158530457-13b25ce5-8ec1-477c-9945-3a88ee03c032.png)
+
 ## contributors
 
 - [Dipak Tange](https://github.com/deep1296)
